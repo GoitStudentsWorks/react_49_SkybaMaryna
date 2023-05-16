@@ -61,7 +61,7 @@ body {
 ReactDOM.createRoot(document.getElementById('root')).render(
   // <React.StrictMode>
   <PersistGate loading={null} persistor={persistor}>
-    <BrowserRouter basename="/GooseTrack">
+    <BrowserRouter basename="/react_49_SkybaMaryna/">
       <Provider store={store}>
         <App />
         <ToastContainer autoClose={4000} theme="colored" />
